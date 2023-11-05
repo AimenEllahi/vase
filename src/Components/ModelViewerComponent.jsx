@@ -15,6 +15,7 @@ const ModelViewerComponent = () => {
       camera-controls
       magic-leap
       ar-scale="auto"
+      camera-orbit="0deg 90deg 5m" // Adjust the camera-orbit attribute to set the initial zoom level to 5%
       style={{ width: "100vw", height: "80vh" }}
     ></model-viewer>
   );
