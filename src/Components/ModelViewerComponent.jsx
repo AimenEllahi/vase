@@ -5,7 +5,7 @@ const ModelViewerComponent = () => {
   return (
     <model-viewer
       src="/vase3.glb"
-      ios-src="/vas3.usdz"
+      ios-src="/vase3.usdz"
       alt="A 3D model"
       ar
       ar-modes="webxr scene-viewer quick-look"
