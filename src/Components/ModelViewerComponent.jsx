@@ -4,18 +4,20 @@ import React from "react";
 const ModelViewerComponent = () => {
   return (
     <model-viewer
-      src="/vase3.glb"
-      ios-src="/vase3.usdz"
-      alt="A 3D model"
+      src='/scene.gltf'
+      alt='A 3D model'
       ar
-      ar-modes="webxr scene-viewer quick-look"
+      ar-modes='webxr scene-viewer quick-look'
       auto-rotate
-      shadow-intensity="1"
-      touch-action="pan-y"
+      shadow-intensity='2'
+      touch-action='pan-y'
       camera-controls
+      camera-orbit='auto auto 80%'
       magic-leap
-      ar-scale="auto"
+      ar-scale='auto'
       style={{ width: "100vw", height: "80vh" }}
+      exposure='0.25'
+      loading='eager'
     ></model-viewer>
   );
 };
