@@ -15,7 +15,7 @@ const ModelViewerComponent = () => {
       camera-orbit='auto auto 80%'
       magic-leap
       ar-scale='auto'
-      style={{ width: "100vw", height: "80vh" }}
+      style={{ width: "100vw", height: "100vh" }}
       exposure='0.25'
       loading='eager'
     ></model-viewer>
