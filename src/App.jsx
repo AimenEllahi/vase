@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className='infobox__content-wrapper'>
-      Please note the following update concerning the for student visa
+      Please note the following update new concerning the for student visa
       appointments: As already announced since October 13th 2023 on this website
       the Embassy will open the student visa registration list on November 15th
       2023 for students holding an admission letter from a German university for
