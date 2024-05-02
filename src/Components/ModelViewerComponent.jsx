@@ -4,7 +4,7 @@ import React from "react";
 const ModelViewerComponent = () => {
   return (
     <model-viewer
-      src='/scene.gltf'
+      src='/sofa.glb'
       alt='A 3D model'
       ar
       ar-modes='webxr scene-viewer quick-look'
