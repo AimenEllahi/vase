@@ -20,6 +20,13 @@ function App() {
       cancellation. As of December 4th appointments for Bachelor and Master
       students holding an unconditional direct admission letter for summer
       semester 2024 will be entertained.
+      <select id='appointment_newAppointmentForm_fields_3__content'>
+        {/* add options */}
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+      </select>
     </div>
   );
 }
