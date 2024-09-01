@@ -1,4 +1,4 @@
-import ModelViewerComponent from "./Components/ModelViewerComponent";
+
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stage } from "@react-three/drei";
